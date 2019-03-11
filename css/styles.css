@@ -82,12 +82,48 @@ body {
 	border: 1px solid black;
 	background-color: lightgrey;
 	box-shadow: 5px 0px 30px -2px rgba(0,0,0,0.8);
+}
+/* Uncomment the following if needed
+.img-small {
+  height: 100px;
+  width: auto;
+}
+.img-medium {
+  height: 200px;
+  width: auto;
+}*/
+.img-large {
+  height: 500px;
+  width: auto;
+}/*
+.img-xlarge {
+  height: 1000;
+  width: auto;
+}*/
+
+/* about */
+.about_column {
+    float: left;
+    width: 50%;
+    border-color: black;
+}
+
+
+.about_floatbox-outer {
+
+    margin: 10px;
+    position: relative;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+.about_floatbox-wrapper{
+    padding: 0;
+    background-color: #d7d7d7;
 
 
 }
-
-/* about */
-
 /* game_details */
 
 /* games */
