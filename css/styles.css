@@ -1,0 +1,52 @@
+/* body */
+
+body {
+    font-size: 1.2 em;
+	/* Background properties */
+	background-image: url("../img/divBackground.jpg");
+	background-color: #cccccc;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center; 
+}
+
+
+/* menu */
+
+
+/* footer */
+
+
+/* general layout */
+
+.outer-div {
+	height: 100%;
+    padding: 30px;
+	position: fixed;
+	left:10%;
+	right:10%;
+}
+
+.inner-div {
+    margin: 0 auto;
+    max-width: 700px;
+	min-width: 250px;
+	height: 100%;
+	border: 1px solid black;
+	background-color: lightgrey;
+	
+	
+
+}
+
+/* about */
+
+/* game_details */
+
+/* games */
+
+/* index / frontpage */
+
+/* news */
+
+/* players */
