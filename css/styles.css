@@ -6,7 +6,7 @@ body {
 	background-image: url("../img/divBackground.jpg");
 	background-color: #cccccc;
 	background-attachment: fixed;
-	background-position: center; 
+	background-position: center;
 }
 /* menu */
 
@@ -35,9 +35,9 @@ body {
     background-color: #555;
     color: white;
 }
- 
 
- 
+
+
 
 /* footer */
 .footer {
@@ -47,7 +47,7 @@ body {
 	width: 100%;
 	background-color:#888484;
         text-align:center;
-	
+
 }
 
 .footer li{
@@ -79,26 +79,10 @@ body {
 	max-width: 90%; /* max allowed width */
 	min-width: 250px; /* min allowed width*/
 	height: 100%;	/* Fill 100% height */
-	border-left: 1px solid black;
-	border-right: 1px solid black;	
-	background-color: lightgrey;	
+	border: 1px solid black;
+	background-color: lightgrey;
 	box-shadow: 5px 0px 30px -2px rgba(0,0,0,0.8);
-	
 
-}
-
-/* about */
-
-/* game_details */
-
-/* games */
-
-/* index / frontpage */
-
-/* news */
-
-/* players */
-	
 
 }
 
