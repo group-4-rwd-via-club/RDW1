@@ -116,6 +116,7 @@ p {
 	border: 1px solid black;
 	background-color: lightgrey;
 	box-shadow: 5px 0px 30px -2px rgba(0,0,0,0.8);
+    overflow: hidden; /* covers floating elements */
 }
 /* Uncomment the following if needed
 .img-small {
@@ -188,6 +189,7 @@ p {
     width: 23%;
     background-image: url(../img/stadium/stadiumProfile.jpg);
     background-size: cover;
+    border-radius: 10px;
 }
 
 .playerImage {
@@ -195,6 +197,7 @@ p {
     width: 100%;
     height: auto;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 .playerOverlay {
@@ -209,11 +212,14 @@ p {
     font-size: 1.2em;
     padding: 10px;
     text-align: center;
+    border-radius: 10px;
 }
 
 .playerContainer:hover .playerOverlay {
     opacity: 1;
 }
+
+
 
 /* playerDetail */
 
@@ -222,7 +228,8 @@ p {
     margin-left: auto;
     margin-right: auto;
     background-image: url(../img/stadium/Stadium2.jpg);
-    background-size: cover
+    background-size: cover;
+    border-radius: 10px;
 }
 
 .playerPic > img{
@@ -254,15 +261,6 @@ p {
     padding-left: 4%;
     padding-right: 4%;
     line-height: 1.4em;
-}
-
-
-
-
-
-
-#delete { /*should be deleted when issue is fixed */
-    color: red;
 }
 
 
