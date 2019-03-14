@@ -11,6 +11,7 @@ body {
 	background-color: #cccccc;
 	background-attachment: fixed;
 	background-position: center;
+    background-size: cover;
    
 }
 
@@ -168,13 +169,7 @@ p {
 /* players JN */
 
 .squad >h1{
-    padding-left: 7px;
-}
-
-
-.player{
-    display:inline-block;
-    float: left;
+    padding-left: 1%;
 }
 
 
@@ -185,10 +180,12 @@ p {
 
 
 .playerContainer {
-    margin: 1%;
+    position:relative;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 3%;
     float: left;
     width: 23%;
-    max-width: 50%;
     background-image: url(../img/stadium/stadiumProfile.jpg);
     background-size: cover;
 }
@@ -221,7 +218,9 @@ p {
 /* playerDetail */
 
 .playerPic {
-    display: inline-block;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
     background-image: url(../img/stadium/Stadium2.jpg);
     background-size: cover
 }
@@ -259,6 +258,12 @@ p {
 
 
 
+
+
+
+#delete { /*should be deleted when issue is fixed */
+    color: red;
+}
 
 
 
