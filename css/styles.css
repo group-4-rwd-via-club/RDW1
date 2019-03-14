@@ -1,5 +1,9 @@
 /* body */
 
+*{
+    box-sizing: border-box;
+}
+
 body {
     font-size: 1.2 em;
 	/* Background properties */
@@ -7,7 +11,36 @@ body {
 	background-color: #cccccc;
 	background-attachment: fixed;
 	background-position: center;
+   
 }
+
+h1{
+    color: #212121;
+    font-size: 28px;
+    
+}
+
+h2 {
+    color: #757575;
+    font-size: 18px;
+    border-bottom: 2px solid #BDBDBD;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #757575;
+    font-size: 15px;
+    border: none;
+    padding-bottom: 5px;
+}
+
+p {
+    color: #555555;
+    font-size: 12px;
+    border: none;
+    padding-bottom: 5px;
+}
+
 /* menu */
 
 
@@ -132,4 +165,100 @@ body {
 
 /* news */
 
-/* players */
+/* players JN */
+
+.squad >h1{
+    padding-left: 7px;
+}
+
+
+.player{
+    display:inline-block;
+    float: left;
+}
+
+
+.player > h2{
+    padding-left: 1%;
+    width: 25%;
+}
+
+
+.playerContainer {
+    margin: 1%;
+    float: left;
+    width: 23%;
+    max-width: 50%;
+    background-image: url(../img/stadium/stadiumProfile.jpg);
+    background-size: cover;
+}
+
+.playerImage {
+    display: block;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.playerOverlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 100%;
+    transition: 0.5s ease; /* shown smooth on hover */
+    opacity:0;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px;
+    text-align: center;
+}
+
+.playerContainer:hover .playerOverlay {
+    opacity: 1;
+}
+
+/* playerDetail */
+
+.playerPic {
+    display: inline-block;
+    background-image: url(../img/stadium/Stadium2.jpg);
+    background-size: cover
+}
+
+.playerPic > img{
+    width: 40%;
+}
+
+.alterEgo{
+    float:left;
+    width:60%;
+    margin-top: 25%;
+    text-align: center;
+}
+
+.alterEgo > h1{
+    color: #FFFFFF;
+}
+
+
+.playerDetail > h2 {
+    color: #212121;
+    padding-left: 4%;
+}
+
+#playerBio h3{
+    padding-left: 4%;
+}
+
+#playerBio p {
+    padding-left: 4%;
+    padding-right: 4%;
+    line-height: 1.4em;
+}
+
+
+
+
+
+
