@@ -9,3 +9,7 @@ Remember to go to Github Desktop and update your branch from the master before y
 1. Open Github Desktop.
 2. Press branch.
 3. Click "update from master"
+
+
+
+
