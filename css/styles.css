@@ -1,7 +1,7 @@
 /* body */
 
 body {
-    font-size: 1.2 em;
+    font-size: 1.2em;
 	/* Background properties */
 	background-image: url("../img/divBackground.jpg");
 	background-color: #cccccc;
@@ -129,6 +129,17 @@ body {
 /* games */
 
 /* index / frontpage */
+
+.front_table{
+	border: 2px solid black;
+	padding: 2px;
+	border-color: black;
+	border-collapse: collapse;
+	height: 400px;
+	width: 400px;
+
+}
+
 
 /* news */
 
