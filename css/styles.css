@@ -33,7 +33,7 @@ body {
 
 .text {
     color: #555555;
-    font-size: 0.9em;
+    font-size: 1.0em;
 }
 
 /* menu */
@@ -241,27 +241,43 @@ body {
 
 /* players (JN) */
 
-#squad {
-    padding-left: 1%;
-    margin-bottom: 3%; 
+.playerDiv {
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+#squad {
+    padding-top: 2%;
+    padding-bottom: 0.5%;
+    text-align: center;
+    border-bottom: 0.08em solid #BDBDBD;
+}
+
+#squadNote {
+    padding: 2%;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+
 .player .subHead1{
-    width: 25%;
+    width: 21.1%;
+    margin-left: 2%;
     padding-left: 1%;
     padding-bottom: 1%;
     margin-bottom: 1%;
-    border-bottom: 0.08em solid #BDBDBD;
-    
+    border-bottom: 0.08em solid #BDBDBD;    
 }
+
 
 .playerContainer {
     position:relative;
-    margin-left: 1%;
-    margin-right: 1%;
-    margin-bottom: 3%;
     float: left;
-    width: 23%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 3%;
+    width:20%;
     background-image: url(../img/stadium/stadiumProfile.jpg);
     background-size: cover;
     border-radius: 10px;
@@ -284,7 +300,7 @@ body {
     transition: 0.5s ease; /* shown smooth on hover */
     opacity:0;
     color: white;
-    font-size: 1.2em;
+    font-size: 1.0em;
     padding: 10px;
     text-align: center;
     border-radius: 10px;
@@ -323,42 +339,45 @@ body {
     margin-top: 24%;
 }
 
-#playerName:hover {
-    cursor: pointer;
-}
 
 #playerDetail {
-    width: 100%;
+    margin-left: 1%;
+    width: 98%;
     font-size: 1.5em;
     margin-top: 2%;
-    padding-left: 2%;
+    padding-left: 1.5%;
     padding-bottom: 1%;
     border-bottom: 0.08em solid #BDBDBD;
 }
 
 #playerMail {
     float: right;
-    margin-top: 2.4%;
+    margin-top: 0.5%;
     padding-right: 2.5%;
+    font-size: 0.9em;
+}
+
+#playerMail a:hover {
+    cursor: pointer;
 }
 
 #playerBio {
     width: 25%;
     margin-top: 2%;
-    padding-left: 2%;
+    padding-left: 2.5%;
 }
 
 .playerInfo .text {
-    font-size: 1.0em;
     line-height: 1.4em;
-    padding-left: 2%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
     padding-top: 0.8%;
 }
 
 .personal, .metric {
     width: 25%;
     float: left;
-    padding-left: 2%;
+    padding-left: 2.5%;
     padding-top: 1.2%;
     margin-bottom: 1%
 }
@@ -369,7 +388,7 @@ body {
 }
 
 #abilities, #weaknesses {
-    padding-left: 2%;
+    padding-left: 2.5%;
     padding-top: 0.8%;
 }
 
