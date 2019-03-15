@@ -12,34 +12,27 @@ body {
 	background-attachment: fixed;
 	background-position: center;
     background-size: cover;
-   
 }
 
-h1{
+.head{
     color: #212121;
-    font-size: 28px;
+    font-size: 2.0em;
     
 }
 
-h2 {
+.subHead1 {
     color: #757575;
-    font-size: 18px;
-    border-bottom: 2px solid #BDBDBD;
-    padding-bottom: 5px;
+    font-size: 1.2em;
 }
 
-h3 {
+.subHead2 {
     color: #757575;
-    font-size: 15px;
-    border: none;
-    padding-bottom: 5px;
+    font-size: 1.1em;
 }
 
-p {
+.text {
     color: #555555;
-    font-size: 12px;
-    border: none;
-    padding-bottom: 5px;
+    font-size: 1.0em;
 }
 
 /* menu */
@@ -80,7 +73,7 @@ p {
 	bottom: 0;
 	width: 100%;
 	background-color:#888484;
-        text-align:center;
+    text-align:center;
 
 }
 
@@ -181,17 +174,19 @@ p {
 
 /* players JN */
 
-.squad >h1{
+#squad {
     padding-left: 1%;
-     overflow: hidden; /* covers floating elements */
+    margin-bottom: 3%; 
 }
 
-
-.player > h2{
-    padding-left: 1%;
+.player .subHead1{
     width: 25%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+    border-bottom: 0.08em solid #BDBDBD;
+    
 }
-
 
 .playerContainer {
     position:relative;
@@ -237,43 +232,74 @@ p {
 
 .playerPic {
     width: 95%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: auto; /* center the image */
+    margin-right: auto; /* center the image */
     background-image: url(../img/stadium/Stadium2.jpg);
-    background-size: cover;
-    border-radius: 10px;
+    background-size: cover; /* covers the entire background - might stretch */
+    border-radius: 10px; /* rounded corner on pic */
 }
 
 .playerPic > img{
     width: 40%;
 }
 
-.alterEgo{
-    float:left;
+.playerPic .head{
     width:60%;
-    margin-top: 25%;
+    float: left;
     text-align: center;
-}
-
-.alterEgo > h1{
     color: #FFFFFF;
+    font-size: 2.3em;
 }
 
-
-.playerDetail > h2 {
-    color: #212121;
-    padding-left: 4%;
+#playerName {
+    margin-top: 24%;
 }
 
-#playerBio h3{
-    padding-left: 4%;
+#playerDetail {
+    width: 100%;
+    font-size: 1.5em;
+    margin-top: 2%;
+    padding-left: 2%;
+    padding-bottom: 1%;
+    border-bottom: 0.08em solid #BDBDBD;
 }
 
-#playerBio p {
-    padding-left: 4%;
-    padding-right: 4%;
+#playerBio, #abilities, #weaknesses {
+    width: 100%;
+    margin-top: 1.6%;
+    padding-left: 2%;
+}
+
+.playerInfo .text {
+    font-size: 1.0em;
     line-height: 1.4em;
+    padding-left: 2%;
+    padding-top: 0.8%;
 }
+
+.superpower ul {
+    margin: 0;
+}
+
+.personal, .metric {
+    width: 25%;
+    float: left;
+    padding-left: 2%;
+    padding-top: 1.2%;
+}
+
+.personal .text, .metric .text {
+    padding-left: 0;
+}
+
+.metric {
+    margin-bottom: 2%;
+}
+
+
+
+
+
 
 
 
