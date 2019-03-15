@@ -32,7 +32,7 @@ body {
 
 .text {
     color: #555555;
-    font-size: 1.0em;
+    font-size: 0.9em;
 }
 
 /* menu */
@@ -172,7 +172,7 @@ body {
 
 /* news */
 
-/* players JN */
+/* players (JN) */
 
 #squad {
     padding-left: 1%;
@@ -228,7 +228,7 @@ body {
 }
 
 
-/* playerDetail */
+/* playerDetail (JN) */
 
 .playerPic {
     width: 95%;
@@ -264,9 +264,9 @@ body {
     border-bottom: 0.08em solid #BDBDBD;
 }
 
-#playerBio, #abilities, #weaknesses {
-    width: 100%;
-    margin-top: 1.6%;
+#playerBio {
+    width: 25%;
+    margin-top: 2%;
     padding-left: 2%;
 }
 
@@ -277,29 +277,31 @@ body {
     padding-top: 0.8%;
 }
 
-.superpower ul {
-    margin: 0;
-}
-
 .personal, .metric {
     width: 25%;
     float: left;
     padding-left: 2%;
     padding-top: 1.2%;
+    margin-bottom: 1%
 }
 
 .personal .text, .metric .text {
     padding-left: 0;
+    
 }
 
-.metric {
+#abilities, #weaknesses {
+    padding-left: 2%;
+    padding-top: 0.8%;
+}
+
+.superpower {
     margin-bottom: 2%;
 }
 
-
-
-
-
+.superpower ul {
+    margin: 0;
+}
 
 
 
