@@ -242,7 +242,7 @@ body {
 /* players (JN) */
 
 .playerDiv {
-    width:50%;
+    width:55%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -323,8 +323,16 @@ body {
     border-radius: 10px; /* rounded corner on pic */
 }
 
+.playerContent {
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .playerPic > img{
     width: 40%;
+    border-radius: 10px;
+    display: flex;
 }
 
 .playerPic .head{
