@@ -2,7 +2,7 @@
 /* body */
 /**/
 
-*{
+{
     box-sizing: border-box;
 }
 
@@ -20,7 +20,7 @@ body {
 .head{
     color: #212121;
     font-size: 2.0em;
-    
+
 }
 
 .subHead1 {
@@ -309,7 +309,7 @@ body {
     padding-left: 1%;
     padding-bottom: 1%;
     margin-bottom: 1%;
-    border-bottom: 0.08em solid #BDBDBD;    
+    border-bottom: 0.08em solid #BDBDBD;
 }
 
 
@@ -334,10 +334,10 @@ body {
 }
 
 .playerOverlay {
-    position: absolute; 
-    bottom: 0; 
+    position: absolute;
+    bottom: 0;
     background: rgba(0, 0, 0, 0.5); /* Black see-through */
-    color: #f1f1f1; 
+    color: #f1f1f1;
     width: 100%;
     transition: 0.5s ease; /* shown smooth on hover */
     opacity:0;
@@ -436,7 +436,7 @@ body {
 
 .personal .text, .metric .text {
     padding-left: 0;
-    
+
 }
 
 #abilities, #weaknesses {
@@ -451,6 +451,3 @@ body {
 .superpower ul {
     margin: 0;
 }
-
-
-
