@@ -1,4 +1,6 @@
+/**/
 /* body */
+/**/
 
 *{
     box-sizing: border-box;
@@ -36,8 +38,9 @@ body {
     font-size: 1.0em;
 }
 
+/**/
 /* menu */
-
+/**/
 
 .nav ul{
 	list-style-type: none;
@@ -66,8 +69,10 @@ body {
 
 
 
-
+/**/
 /* footer */
+/**/
+
 .footer {
 	position: fixed;
 	left: 0;
@@ -91,8 +96,10 @@ body {
 }
 
 
-
+/**/
 /* general layout */
+/**/
+
 
 .outer-div {
 	height: 100%;
@@ -110,8 +117,72 @@ body {
 	background-color: lightgrey;
 	box-shadow: 5px 0px 30px -2px rgba(0,0,0,0.8);
     overflow: hidden; /* covers floating elements */
-   
 }
+
+
+/* split page and floatbox */
+
+.splitpage_wrapper {
+    display: flex;
+    flex-direction: row;
+}
+.split_left {
+    flex:80%;
+    border-right: 1px solid black;
+
+}
+.split_right {
+    flex:20%;
+    background-color:#cccccc;
+    border-left: 1px solid black;
+}
+
+
+.floatbox-wrapper{
+    background-color: #cccccc;
+}
+
+.floatbox-upper {
+    padding-left:10px;
+    top:0;
+    background-color: darkred;
+    color: white;
+    height: auto;
+    border-bottom: 3px solid black;
+    display: flex;
+    vertical-align: middle;
+}
+
+.floatbox {
+    border-left: 1px solid black;
+}
+
+.floatbox-under img {
+    display:flex;
+    width:100%;
+}
+
+.floatbox-under p {
+    padding-left: 10px;
+    line-height: 0.5em;
+    font-size: 0.9em;
+}
+
+.floatbox-under ul{
+    list-style-type: none;
+    line-height: 29px;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+}
+
+.thumbnail {
+    display: block;
+    width: 100%;
+}
+
+
 /* Uncomment the following if needed
 .img-small {
   height: 100px;
@@ -122,71 +193,64 @@ body {
   height: 200px;
   width: auto;
 }
-/*
+
 .img-large {
   height: 500px;
   width: auto;
-}/*
+}
+/*
 .img-xlarge {
   height: 1000;
   width: auto;
 }*/
 
+
+
+
+
+
+
+/**/
 /* about */
-.about_column {
-    float: left;
-    width: 50%;
-    border-color: black;
+/**/
+
+.about_main {
+    padding: 20px;
+}
+.about_main img {
+  float:left;
+}
+.about_main section {
+    display: block;
 }
 
 
-.about_floatbox-outer {
-
-    margin: 10px;
-    position: relative;
-    border-width: 2px;
-    border-style: solid;
-    border-color: black;
-}
-
-.about_floatbox-wrapper{
-    padding: 0;
-    background-color: #d7d7d7;
 
 
-}
+/**/
 /* game_details */
+/**/
 
+
+/**/
 /* games */
+/**/
 
+
+
+/**/
 /* index / frontpage */
+/**/
 
 #frontpage_header {
-    display:block;
+    display:block; /* block needed to remove gab */
     width: 100%;
 }
 
-.front_left {
-    width: 80%;
-    float:left;
-    border-right: 1px solid black;
-
-}
-.front_right {
-    width: 20%;
-    float:right;
-    background-color:#cccccc;
-}
-
-.thumbnail {
-    display: block;
-    width: 100%;
-}
 
 .front_youtube {
     display: flex; /* removes small gab */
     width: 100%;
-
 }
 
 .news_thumbnail {
@@ -208,36 +272,16 @@ body {
     font-size: 0.7em;
 }
 
-.floatbox-wrapper{
-    background-color: #cccccc;
-}
 
-
-.floatbox-upper {
-    padding-left:10px;
-    top:0;
-    background-color: darkred;
-    color: white;
-    height: auto;
-    border-bottom: 3px solid black;
-    display: flex;
-    vertical-align: middle;
-}
-
-.floatbox-under ul{
-    list-style-type: none;
-    line-height: 29px;
-    margin: 0;
-    padding: 0;
-    top: 0;
-    left: 0;
-}
-
-
-
+/**/
 /* news */
+/**/
 
-/* players (JN) */
+
+/**/
+/* players */
+/**/
+
 
 .playerDiv {
     width:50%;
@@ -308,8 +352,10 @@ body {
     opacity: 1;
 }
 
+/**/
+/* playerDetail */
+/**/
 
-/* playerDetail (JN) */
 
 .playerPic {
     margin-top: 2%;
