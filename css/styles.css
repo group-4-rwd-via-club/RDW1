@@ -164,37 +164,35 @@ body {
 #frontpage_header {
     display:block;
     width: 100%;
-    height: auto;
 }
 
-.left {
+.front_left {
     width: 80%;
     float:left;
-    border: 1px solid black;
+    border-right: 1px solid black;
 
 }
-.right {
-    height: 100%;
+.front_right {
     width: 20%;
     float:right;
     background-color:#cccccc;
-    border: 1px solid black;
 }
 
 .thumbnail {
     display: block;
     width: 100%;
-    height: auto;
 }
 
 .front_youtube {
+    display: flex; /* removes small gab */
     width: 100%;
+
 }
 
 .news_thumbnail {
     margin-top: 10px;
     padding: 10px;
-    float:left;
+    float: left;
 }
 .news_thumbnail h4 {
     color: gray();
