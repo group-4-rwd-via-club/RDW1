@@ -162,15 +162,20 @@ body {
     width:100%;
 }
 
+.floatbox-under {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .floatbox-under p {
+    margin:0 auto;
     padding-left: 10px;
-    line-height: 0.5em;
     font-size: 0.9em;
 }
 
 .floatbox-under ul{
     list-style-type: none;
-    line-height: 29px;
+    /* reset values for margin if list is used */
     margin: 0;
     padding: 0;
     top: 0;
