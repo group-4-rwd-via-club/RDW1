@@ -162,9 +162,8 @@ body {
     width:100%;
 }
 
-.floatbox-under {
-    padding-top: 10px;
-    padding-bottom: 10px;
+.floatbox-under div{
+    padding: 10px;
 }
 
 .floatbox-under p {
@@ -267,7 +266,7 @@ body {
 
 
 .front_youtube {
-    display: flex; /* removes small gab */
+    display:flex;
     width: 100%;
 }
 
