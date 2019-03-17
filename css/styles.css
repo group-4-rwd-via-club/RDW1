@@ -223,14 +223,27 @@ body {
 .about_main section {
     display: block;
 }
-
+ 
 
 
 
 /**/
 /* game_details */
 /**/
-
+.details{
+	width: 800px;
+	margin: 50px auto;
+	broder:soild 1px gray;
+	overflow: hidden;
+}
+.lineup {width: 450px;
+	float: left;
+	
+}
+.lineup img{
+	display: block;
+	width: 100%;
+}
 
 /**/
 /* games */
