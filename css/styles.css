@@ -331,6 +331,7 @@ ul.nav li {  /* layout of nav links */
     width:55%;
     margin-left: auto;
     margin-right: auto;
+    overflow: hidden;
 }
 
 #squad {
