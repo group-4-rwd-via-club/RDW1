@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 
-
 html {
     height: 100%;
 }
@@ -45,9 +44,9 @@ body {
     font-size: 1.0em;
 }
 
-
+/**/
 /* menu */
-
+/**/
 
 ul.nav, .navbar .opacity {
     position: fixed; /* fixed text and opacity layer */
