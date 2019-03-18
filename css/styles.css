@@ -110,10 +110,17 @@ ul.nav li {  /* layout of nav links */
 .text-white {
     color: #ffffff;
 }
+
+.text-xsmall {
+    font-size:0.6em;
+}
 .text-small {
     font-size: 0.8em;
 }
 .text-medium {
+    font-size: 1em;
+}
+.text-large {
     font-size: 1.6em;
 }
 .wrap-min-height{
@@ -178,12 +185,10 @@ ul.nav li {  /* layout of nav links */
 }
 
 .floatbox-upper {
-    padding-left:10px;
+    padding: 5px 10px 5px 10px;
     top:0;
-    background-color: darkred;
-    color: white;
     height: auto;
-    border-bottom: 3px solid black;
+    /*border-bottom: 3px solid black;*/
     display: flex;
     vertical-align: middle;
 }
@@ -220,7 +225,6 @@ ul.nav li {  /* layout of nav links */
     display: block;
     width: 100%;
 }
-
 
 
 .img-medium {
@@ -298,7 +302,6 @@ ul.nav li {  /* layout of nav links */
 .front_youtube {
     display:flex;
     width: 100%;
-    frameborder: 0; /* iframe property (border) */
 }
 
 .news_thumbnail {
