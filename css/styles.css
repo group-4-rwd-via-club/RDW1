@@ -127,6 +127,9 @@ ul.nav li {  /* layout of nav links */
 .text-white {
     color: #ffffff;
 }
+.text-small {
+    text-size: 0.3em;
+}
 
 .social img  {
     padding: 1%;
