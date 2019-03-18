@@ -77,7 +77,7 @@ ul.nav {
 ul.nav li {  /* layout of nav links */
     display: inline-block;
     width: 10%;
-    padding: 0.4%;
+    padding: 0.4%; /* vertical position of text on navbar */
 }
 
 
