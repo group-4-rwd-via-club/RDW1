@@ -2,11 +2,16 @@
 /* body */
 /**/
 
-*{
+html {
+    height: 100%;
     box-sizing: border-box;
 }
 
+
 body {
+    position: relative;
+    margin: 0;
+    min-height: 100%;
     font-size: 1.2em;
 	/* Background properties */
 	background-image: url("../img/divBackground.jpg");
@@ -74,25 +79,24 @@ body {
 /**/
 
 .footer {
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	background-color:#888484;
-    text-align:center;
-
+    border-top: 2px solid black;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #757575;
+    text-align: center;
 }
 
 .footer li{
 	display: inline;
 }
+
 .footer a{
 	text-decoration: none;
 	color: white;
-	font-size: 18px;
 	margin: 0;
 	padding: 9px 40px;
-	word-spacing: 4px;
 }
 
 
@@ -100,24 +104,15 @@ body {
 /* general layout */
 /**/
 
-
-.outer-div {
-	height: 100%;
-    padding: 30px;
-	left:10%;
-	right:10%;
+#center {
+    margin: 0 auto;
+    max-width: 89%; /* max allowed width */
+    min-width: 300px; /* min allowed width*/
+    border: 1px solid black;
+    background-color: lightgrey;
+    box-shadow: 5px 0px 30px -2px rgba(0,0,0,0.8);
 }
 
-.inner-div {
-	margin: 0 auto;
-	max-width: 90%; /* max allowed width */
-	min-width: 300px; /* min allowed width*/
-	height: 100%;	/* Fill 100% height */
-	border: 1px solid black;
-	background-color: lightgrey;
-	box-shadow: 5px 0px 30px -2px rgba(0,0,0,0.8);
-    overflow: hidden; /* covers floating elements */
-}
 
 
 /* split page and floatbox */
