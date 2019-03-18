@@ -107,7 +107,15 @@ ul.nav li {  /* layout of nav links */
     vertical-align: middle;
     padding: 10px 0 10px 0;
 }
-
+.text-white {
+    color: #ffffff;
+}
+.text-small {
+    font-size: 0.8em;
+}
+.text-medium {
+    font-size: 1.6em;
+}
 .wrap-min-height{
     min-height: 5em;
 }
@@ -124,12 +132,7 @@ ul.nav li {  /* layout of nav links */
 .bg-color-text-primary {
     background-color: #212121;
 }
-.text-white {
-    color: #ffffff;
-}
-.text-small {
-    text-size: 0.3em;
-}
+
 
 .social img  {
     padding: 1%;
@@ -295,6 +298,7 @@ ul.nav li {  /* layout of nav links */
 .front_youtube {
     display:flex;
     width: 100%;
+    frameborder: 0; /* iframe property (border) */
 }
 
 .news_thumbnail {
