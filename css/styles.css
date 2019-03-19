@@ -102,6 +102,8 @@ ul.nav li {  /* layout of nav links */
 	color: #ffffff;
 }
 
+
+
 .text-center {
     text-align: center;
     vertical-align: middle;
@@ -140,13 +142,19 @@ ul.nav li {  /* layout of nav links */
     background-color: #212121;
 }
 
-
+.social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
 .social img  {
-    padding: 1%;
     height: 100px;
     filter: invert(1); /* invert picture */
 
 }
+
 /**/
 /* general layout */
 /**/
@@ -304,6 +312,7 @@ ul.nav li {  /* layout of nav links */
 
 
 .front_youtube {
+    border: none;
     display:flex;
     width: 100%;
 }
