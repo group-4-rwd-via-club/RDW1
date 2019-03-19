@@ -186,6 +186,7 @@ ul.nav li {  /* layout of nav links */
     flex-direction: row;
 }
 .split_left {
+    background-color:#cccccc;
     flex:80%;
     border-right: 1px solid black;
 
