@@ -312,85 +312,31 @@ ul.nav li {  /* layout of nav links */
 .detailline{
 	 height:2px;
 	border:none;
-	border-top:2px dotted #185598;"
+	border-top:2px;
+	dotted: #185598"
 }
 
 /**/
 /* games */
 /**/
+td,th
+  {
+  text-align:center
+  }
 .table table{
+	background-color:rgba(0,0,2,0.115);
 
-	width: 100%;
-    position:relative;
-	right: auto;
-}
-.headpart{
-	background-color:#cccccc;
-	height: 14px;
-	height: 30px;
-	width: 70px;
-}
-.headpart tr{
-	background-color:#cccccc;
-	height: 12px;
-}
-.headpart td{
-	 height: 30px;
-	 width: 70px;
-}
-.headpart p{
-	text-align: center;
-	color: #cccccc;
-}
-.headpart span{
-	color:black;
-}
-.greypart th{
-	background-color:#CCCCCC;
-}
-.greypart tr{
-	background-color:#CCCCCC;
+	width:100%;
+     }
 
-}
-.greypart span{
-	color: black;
-	font-size: 10pt;
-	font-family: arial, helvetica, sans-serif;
-}
-.greypart td{
-	height: 30px;
-
-	width: 70px;
-}
-.greypart p{
-	text-align: center;
-}
-.whitepart tr{
-	background-color: indigo;
-}
-
-.whitepart th{
-	background-color:darkorchid;
-	border-collapse:separate;
-}
-.whitepart span{
-	color: black;
-	font-size: 10pt;
-	font-family:  sans-serif;
-}
-.whitepart td{
-	height: 30px;
-
-}
-.gametd{
-	 width: 70px;
-	 align-content: center;
-	text-align: center;
-}
-.gameheight{
-	height: 0px;
-}
-
+.grey td
+  {
+  background-color:#cccccc;
+  }
+td
+  {
+  padding:4px;
+  }
 
 
 /**/
