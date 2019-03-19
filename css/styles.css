@@ -104,44 +104,6 @@ ul.nav li {  /* layout of nav links */
 
 
 
-.text-center {
-    text-align: center;
-    vertical-align: middle;
-    padding: 10px 0 10px 0;
-}
-.text-white {
-    color: #ffffff;
-}
-
-.text-xsmall {
-    font-size:0.6em;
-}
-.text-small {
-    font-size: 0.8em;
-}
-.text-medium {
-    font-size: 1em;
-}
-.text-large {
-    font-size: 1.6em;
-}
-.wrap-min-height{
-    min-height: 5em;
-}
-
-.bg-color-primary {
-    background-color: #009688;
-}
-.bg-color-dark-primary {
-    background-color: #00796B;
-}
-.bg-color-light-primary {
-    background-color: #B2DFDB;
-}
-.bg-color-text-primary {
-    background-color: #212121;
-}
-
 .social {
     display: flex;
     flex-direction: row;
@@ -151,6 +113,7 @@ ul.nav li {  /* layout of nav links */
 }
 .social img  {
     height: 100px;
+    width: 100px;
     filter: invert(1); /* invert picture */
 
 }
@@ -168,6 +131,48 @@ ul.nav li {  /* layout of nav links */
     box-shadow: 5px 0px 30px -2px rgba(0,0,0,0.8);
 }
 
+
+/* Text */
+
+.text-center {
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px 0 10px 0;
+}
+.text-color-white {
+    color: #ffffff;
+}
+.text-color-primary {
+    color: #212121;
+}
+.text-xsmall {
+    font-size:0.6em;
+}
+.text-small {
+    font-size: 0.8em;
+}
+.text-medium {
+    font-size: 1em;
+}
+.text-large {
+    font-size: 1.6em;
+}
+.wrap-min-height{
+    min-height: 5em;
+}
+/* backgrounds */
+.bg-color-primary {
+    background-color: #009688;
+}
+.bg-color-dark-primary {
+    background-color: #00796B;
+}
+.bg-color-light-primary {
+    background-color: #B2DFDB;
+}
+.bg-color-text-primary {
+    background-color: #212121;
+}
 
 
 /* split page and floatbox */
@@ -201,8 +206,8 @@ ul.nav li {  /* layout of nav links */
     vertical-align: middle;
 }
 
-.floatbox {
-    border-left: 1px solid black;
+.linkremoval {
+    text-decoration: none;
 }
 
 .floatbox-under img {
@@ -266,7 +271,7 @@ ul.nav li {  /* layout of nav links */
 .about_main img {
     margin-right: 20px;
     float:left;
-    max-width: 40%;
+    max-width: 35%;
     min-width: 122px; /*fits min size screen */
     height: auto;
 }
