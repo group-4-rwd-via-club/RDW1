@@ -161,6 +161,9 @@ ul.nav li {  /* layout of nav links */
     min-height: 5em;
 }
 /* backgrounds */
+.bg-color-grey {
+    background-color:#cccccc;
+}
 .bg-color-primary {
     background-color: #009688;
 }
@@ -173,6 +176,7 @@ ul.nav li {  /* layout of nav links */
 .bg-color-text-primary {
     background-color: #212121;
 }
+
 
 
 /* split page and floatbox */
@@ -324,24 +328,11 @@ ul.nav li {  /* layout of nav links */
 /**/
 /* games */
 /**/
-td,th
-  {
-  text-align:center
-  }
-.table table{
-	background-color:rgba(0,0,2,0.115);
 
-	width:100%;
-     }
+.table table {
+    width: 100%;
+}
 
-.grey td
-  {
-  background-color:#cccccc;
-  }
-td
-  {
-  padding:4px;
-  }
 
 
 /**/
@@ -352,7 +343,6 @@ td
     display:block; /* block needed to remove gab */
     width: 100%;
 }
-
 
 .front_youtube {
     border: none;
