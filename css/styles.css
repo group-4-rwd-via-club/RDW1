@@ -188,7 +188,7 @@ ul.nav li {  /* layout of nav links */
     padding: 5px 10px 5px 10px;
     top:0;
     height: auto;
-    /*border-bottom: 3px solid black;*/
+    border-top: 1px solid black;
     display: flex;
     vertical-align: middle;
 }
@@ -256,7 +256,11 @@ ul.nav li {  /* layout of nav links */
     padding: 20px;
 }
 .about_main img {
-  float:left;
+    margin-right: 20px;
+    float:left;
+    max-width: 40%;
+    min-width: 122px; /*fits min size screen */
+    height: auto;
 }
 .about_main section {
     display: block;
@@ -342,11 +346,9 @@ ul.nav li {  /* layout of nav links */
 }
 
 #playerLogo {
-    width: 3%;
-    position: absolute;
-    margin-left: 19%;
-    margin-top: 0.3%;
-    
+    width: 30%;
+    min-width: 122px;
+    vertical-align: middle;
 }
 
 #squad {
