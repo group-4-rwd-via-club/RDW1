@@ -321,16 +321,17 @@ ul.nav li {  /* layout of nav links */
 /**/
 td,th
   {
-  text-align:right;
+  text-align:center
   }
 .table table{
+	background-color:rgba(0,0,2,0.115);
 
-	width:90%;
+	width:100%;
      }
 
 .grey td
   {
-  background-color:green;
+  background-color:#cccccc;
   }
 td
   {
