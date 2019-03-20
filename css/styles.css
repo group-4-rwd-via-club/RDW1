@@ -416,7 +416,7 @@ td
 
 /*.news_topic a, .news_thumbnail a {}
 */
-.news_button a {
+.news_topic a {
     padding: 0px 2px 0px 2px;
     border: 1px solid #00796b;
     border-radius: 4px;
@@ -425,25 +425,25 @@ td
     font-size: 0.9em;
 }
 
-.news_button a:link {
+.news_topic a:link {
     border: 1px solid #00796b;
     background-color: #00796b;
     text-decoration: none;
 }
 
-.news_button a:visited {
+.news_topic a:visited {
     border: 1px solid #009688;
     background-color: #009688;
     text-decoration: none;
 }
 
-.news_button a:hover {
+.news_topic a:hover {
     border: 1px solid #009688;
     background-color: #009688;
     text-decoration: underline;
 }
 
-.news_button a:active {
+.news_topic a:active {
     border: 1px solid #B2DFDB;
     background-color: #B2DFDB;
     text-decoration: underline;
