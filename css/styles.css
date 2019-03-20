@@ -293,7 +293,7 @@ ul.nav li {  /* layout of nav links */
 .details{
 	width: 800px;
 	margin: 50px auto;
-	broder:soild 1px gray;
+	border: solid 1px gray;
 	overflow: hidden;
 }
 .lineup {width: 450px;
@@ -305,7 +305,7 @@ ul.nav li {  /* layout of nav links */
 	width: 100%;
 }
 #gdetails {
-     position:relative;
+    position:relative;
     left:  60%;
 
 }
@@ -320,7 +320,7 @@ ul.nav li {  /* layout of nav links */
     top:0px;
 }
 .detailline{
-	 height:2px;
+    height:2px;
 	border:none;
 	border-top:2px;
 	dotted: #185598"
@@ -371,13 +371,30 @@ ul.nav li {  /* layout of nav links */
     color: grey;
     font-size: 0.7em;
 }
-
+/*.new_thumbnail_alt {
+    margin-top: 10px;
+    padding: 10px;
+    float: left;
+    max-width: 50%;
+}*/
 
 
 /**/
 /* news */
 /**/
-
+.news_topic {
+    margin-top: 10px;
+    padding: 10px;
+    float: left;
+}
+.news_topic img {
+    border-radius: 10px;
+    display: flex;
+}
+.news_topic span {
+    color: grey;
+    font-size: 0.7em;
+}
 
 /**/
 /* players */
