@@ -303,6 +303,7 @@ ul.nav li {  /* layout of nav links */
 .lineup img{
 	display: block;
 	width: 100%;
+	border:15px solid transparent;
 }
 #gdetails {
     position:relative;
@@ -323,8 +324,9 @@ ul.nav li {  /* layout of nav links */
     height:2px;
 	border:none;
 	border-top:2px;
-	dotted: #185598"
+	 
 }
+ 
 
 /**/
 /* games */
