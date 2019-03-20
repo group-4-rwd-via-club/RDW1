@@ -297,8 +297,11 @@ ul.nav li {  /* layout of nav links */
 }
 
 .lineup img{
-    display: block;
-    width: 100%;
+
+	display: block;
+	width: 100%;
+	border:15px solid transparent;
+
 }
 
 #gdetails {
@@ -319,22 +322,34 @@ ul.nav li {  /* layout of nav links */
 }
 
 .detailline{
-    height: 2px;
-    border: none;
-    border-top: 2px;
-    dotted: #185598"
+
+    height:2px;
+	border:none;
+	border-top:2px;
+	 
+
 }
+ 
 
 /**/
 /* games */
 /**/
 .table table {
     width: 100%;
+	
 }
 
 .table td {
     padding: 4px;
+	border: none;
 }
+.table th{
+	border: none;
+}
+td
+  {
+  padding:4px;
+  }
 
 /**/
 /* index / frontpage */
