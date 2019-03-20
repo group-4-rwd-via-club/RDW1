@@ -13,13 +13,14 @@ body {
     position: relative;
     margin: 0;
     min-height: 100%;
-    font-size: 1.2em;
-	/* Background properties */
-	background-image: url("../img/divBackground.jpg");
-	background-color: #cccccc;
+    font-size: 1.0em;
+    font-family: Verdana, Helvetica, sans-serif;
+    /* Background properties */
+    background-image: url("../img/divBackground.jpg");
+    background-color: #cccccc;
     /* This needs to be changed. The moving background is NOT nice!!!! */
-	background-attachment: fixed;
-	background-position: center;
+    background-attachment: fixed;
+    background-position: center;
     background-size: cover;
     z-index: 1;
 }
@@ -27,7 +28,6 @@ body {
 .head{
     color: #212121;
     font-size: 2.0em;
-
 }
 
 .subHead1 {
@@ -48,7 +48,6 @@ body {
 /**/
 /* menu */
 /**/
-
 .navbar {
     position: sticky;
     top: 0;
@@ -71,7 +70,6 @@ ul.nav li {  /* layout of nav links */
     padding: 0.4%; /* vertical position of text on navbar */
 }
 
-
 .nav li a {
   color: #FFFFFF; /* ordinary text color */
   font-size: 0.9em;
@@ -85,24 +83,19 @@ ul.nav li {  /* layout of nav links */
 /**/
 /* footer */
 /**/
-
-
-
 .footer {
     text-align: center;
 }
 
 .footer li{
-	display: inline;
+    display: inline;
     padding: 10%
 }
 
 .footer a{
-	text-decoration: none;
-	color: #ffffff;
+    text-decoration: none;
+    color: #ffffff;
 }
-
-
 
 .social {
     display: flex;
@@ -111,17 +104,16 @@ ul.nav li {  /* layout of nav links */
     justify-content: space-around;
     padding: 10px;
 }
+
 .social img  {
     height: 100px;
     width: 100px;
     filter: invert(1); /* invert picture */
-
 }
 
 /**/
-/* general layout */
+/* General Layout */
 /**/
-
 #center {
     margin: 0 auto;
     max-width: 89%; /* max allowed width */
@@ -131,72 +123,83 @@ ul.nav li {  /* layout of nav links */
     box-shadow: 5px 0px 30px -2px rgba(0,0,0,0.8);
 }
 
-
+/**/
 /* Text */
-
+/**/
 .text-center {
     text-align: center;
     vertical-align: middle;
     padding: 10px 0 10px 0;
 }
+
 .text-color-white {
     color: #ffffff;
 }
+
 .text-color-primary {
     color: #212121;
 }
+
 .text-xsmall {
     font-size:0.6em;
 }
+
 .text-small {
     font-size: 0.8em;
 }
+
 .text-medium {
     font-size: 1em;
 }
+
 .text-large {
     font-size: 1.6em;
 }
+
 .wrap-min-height{
     min-height: 5em;
 }
+
 /* backgrounds */
 .bg-color-grey {
     background-color:#cccccc;
 }
+
 .bg-color-primary {
     background-color: #009688;
 }
+
 .bg-color-dark-primary {
     background-color: #00796B;
 }
+
 .bg-color-light-primary {
     background-color: #B2DFDB;
 }
+
 .bg-color-text-primary {
     background-color: #212121;
 }
 
-
-
-/* split page and floatbox */
-
+/**/
+/* Split Page and Floatbox */
+/**/
 .splitpage_wrapper {
     display: flex;
     flex-direction: row;
 }
+
 .split_left {
     background-color:#cccccc;
     flex:80%;
     border-right: 1px solid black;
-
 }
+
 .split_right {
     flex:20%;
     background-color:#cccccc;
     border-left: 1px solid black;
 }
-
 
 .floatbox-wrapper{
     background-color: #cccccc;
@@ -244,7 +247,6 @@ ul.nav li {  /* layout of nav links */
     width: 100%;
 }
 
-
 .img-medium {
   height: 200px;
   width: auto;
@@ -254,25 +256,20 @@ ul.nav li {  /* layout of nav links */
   height: 500px;
   width: auto;
 }
+
 /*
 .img-xlarge {
   height: 1000;
   width: auto;
-}*/
-
-
-
-
-
-
-
+}
+*/
 /**/
 /* about */
 /**/
-
 .about_main {
     padding: 20px;
 }
+
 .about_main img {
     margin-right: 20px;
     float:left;
@@ -280,62 +277,68 @@ ul.nav li {  /* layout of nav links */
     min-width: 122px; /*fits min size screen */
     height: auto;
 }
+
 .about_main section {
     display: block;
 }
-
-
-
 
 /**/
 /* game_details */
 /**/
 .details{
-	width: 800px;
-	margin: 50px auto;
-	border: solid 1px gray;
-	overflow: hidden;
+    width: 800px;
+    margin: 50px auto;
+    border: solid 1px gray;
+    overflow: hidden;
 }
-.lineup {width: 450px;
-	float: left;
 
+.lineup {width: 450px;
+    float: left;
 }
+
 .lineup img{
+
 	display: block;
 	width: 100%;
 	border:15px solid transparent;
-}
-#gdetails {
-    position:relative;
-    left:  60%;
 
 }
+
+#gdetails {
+    position: relative;
+    left: 60%;
+}
+
 #gdetails li{
-	position:relative;
-    left:30px;
-    top:0px;
+    position: relative;
+    left: 30px;
+    top: 0px;
 }
+
 #leftdetails{
-	position:relative;
-    left:-350px;
-    top:0px;
+    position: relative;
+    left: -350px;
+    top: 0px;
 }
+
 .detailline{
+
     height:2px;
 	border:none;
 	border-top:2px;
 	 
+
 }
  
 
 /**/
 /* games */
 /**/
-
 .table table {
     width: 100%;
 	
 }
+
 .table td {
     padding: 4px;
 	border: none;
@@ -348,11 +351,9 @@ td
   padding:4px;
   }
 
-
 /**/
 /* index / frontpage */
 /**/
-
 #frontpage_header {
     display:block; /* block needed to remove gab */
     width: 100%;
@@ -364,54 +365,89 @@ td
     width: 100%;
 }
 
-.news_thumbnail {
+.news_thumbnail, .news_topic {
     margin-top: 10px;
     padding: 10px;
     float: left;
 }
+
 .news_thumbnail h4 {
-    color: gray();
+    color: gray;
 }
-.news_thumbnail p {
+
+.news_thumbnail p, .news_topic p {
     margin: 0 auto;
 }
-.news_thumbnail.img {
+
+.news_thumbnail img {
     max-height: 150px;
 }
-.news_thumbnail span {
+
+.news_thumbnail span, .news_topic span {
     color: grey;
     font-size: 0.7em;
 }
+
 /*.new_thumbnail_alt {
     margin-top: 10px;
     padding: 10px;
     float: left;
     max-width: 50%;
-}*/
-
-
-/**/
-/* news */
-/**/
-.news_topic {
-    margin-top: 10px;
-    padding: 10px;
-    float: left;
 }
+*/
+/**/
+/* News, some elements above in frontpage */
+/**/
+.news_topic h4 {
+    font-variant: small-caps;
+    color: #795548;
+}
+
 .news_topic img {
     border-radius: 10px;
     display: flex;
+    max-height: 400px;
 }
-.news_topic span {
-    color: grey;
-    font-size: 0.7em;
+
+/*.news_topic a, .news_thumbnail a {}
+*/
+.news_button a {
+    padding: 0px 2px 0px 2px;
+    border: 1px solid #00796b;
+    border-radius: 4px;
+    background-color: #00796b;
+    color: white;
+    font-size: 0.9em;
+}
+
+.news_button a:link {
+    border: 1px solid #00796b;
+    background-color: #00796b;
+    text-decoration: none;
+}
+
+.news_button a:visited {
+    border: 1px solid #009688;
+    background-color: #009688;
+    text-decoration: none;
+}
+
+.news_button a:hover {
+    border: 1px solid #009688;
+    background-color: #009688;
+    text-decoration: underline;
+}
+
+.news_button a:active {
+    border: 1px solid #B2DFDB;
+    background-color: #B2DFDB;
+    text-decoration: underline;
+    color: #212121;
 }
 
 /**/
 /* players */
 /**/
-
-
 .playerDiv {
     width:55%;
     margin-left: auto;
@@ -437,7 +473,6 @@ td
     text-align: center;
 }
 
-
 .player .subHead1{
     width: 21.1%;
     margin-left: 2%;
@@ -446,7 +481,6 @@ td
     margin-bottom: 1%;
     border-bottom: 0.08em solid #BDBDBD;
 }
-
 
 .playerContainer {
     position:relative;
@@ -490,8 +524,6 @@ td
 /**/
 /* playerDetail */
 /**/
-
-
 .playerPic {
     margin-top: 2%;
     width: 95%;
@@ -506,7 +538,6 @@ td
     width:90%;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .playerPic > img{
@@ -527,7 +558,6 @@ td
     margin-top: 24%;
 }
 
-
 #playerDetail {
     margin-left: 1%;
     width: 98%;
@@ -536,7 +566,6 @@ td
     padding-left: 1.5%;
     padding-bottom: 1%;
     border-bottom: 0.08em solid #BDBDBD;
-
 }
 
 #playerMail {
@@ -573,7 +602,6 @@ td
 
 .personal .text, .metric .text {
     padding-left: 0;
-
 }
 
 #abilities, #weaknesses {
