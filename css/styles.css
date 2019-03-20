@@ -332,9 +332,14 @@ ul.nav li {  /* layout of nav links */
 
 .table table {
     width: 100%;
+	
 }
 .table td {
     padding: 4px;
+	border: none;
+}
+.table th{
+	border: none;
 }
 
 
