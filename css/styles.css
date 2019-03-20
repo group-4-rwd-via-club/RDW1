@@ -247,6 +247,11 @@ ul.nav li {  /* layout of nav links */
     width: 100%;
 }
 
+.img-small{
+    height: 100px;
+    width: auto;
+}
+
 .img-medium {
   height: 200px;
   width: auto;
