@@ -341,6 +341,10 @@ ul.nav li {  /* layout of nav links */
 .table th{
 	border: none;
 }
+td
+  {
+  padding:4px;
+  }
 
 
 /**/
